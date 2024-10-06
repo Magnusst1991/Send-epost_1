@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Send epost</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<style>
+    textarea{
+        padding-top: 1rem;
+        height: 5rem;
+    }
+</style>
+<body>
+    <form action="https://formsubmit.co/magnusst@afk.no" method="POST">
+        <label for="navn">Fullt navn</label>
+        <input type="text" name="name" id="navn" placeholder="Magnus">
+        <br>
+        <label for="epost">e-post</label>
+        <input type="email" name="email" id="epost" required placeholder="fake@fake.com">
+        <br>
+        <br>
+        <label for="tekst">Melding</label>
+        
+        <br>
+        <textarea name="tekstomrade" id="tekst" placeholder="Skriv noe her..."></textarea>
+        <button type="submit">Send</button>
+   </form>
+</body>
+</html>
